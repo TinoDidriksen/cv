@@ -14,7 +14,7 @@ These days, I primarily develop tools for use in various parts of computational 
 
 ---
 ## Technical Skills
-**Like:** c++, qt, boost, php, jquery, cmake, qt-creator, visual-c++, valgrind, nlp, machine-translation
+**Like:** c++, qt, boost, php, perl, jquery, cmake, qt-creator, visual-c++, valgrind, nlp, machine-translation, unicode
 
 **Dislike:** c, java, autotools, makefile
 
@@ -230,21 +230,21 @@ Initial involvement was to provide support for their use of [CG-3](https://githu
 
 ##Writing
 
-**Keen Mind (SciFi Flash Story)**, [http://365tomorrows.com/07/12/keen-mind/](http://365tomorrows.com/07/12/keen-mind/)
+**Keen Mind (SciFi Flash Story, 2014)**, [http://365tomorrows.com/07/12/keen-mind/](http://365tomorrows.com/07/12/keen-mind/)
 
 
 &quot;The two young men have visited me twice per week in the past months, asking me to tell them stories about my past.&quot; Read more...
 
 ---
 
-**Language Comparison: Find Longest Line**, [http://tinodidriksen.com/2010/03/17/language-comparison-find-longest-line/](http://tinodidriksen.com/2010/03/17/language-comparison-find-longest-line/)
+**Language Comparison: Find Longest Line (2010)**, [http://tinodidriksen.com/2010/03/17/language-comparison-find-longest-line/](http://tinodidriksen.com/2010/03/17/language-comparison-find-longest-line/)
 
 
 The task: Write a portable tool that takes a file name as first argument, and from that file outputs the number of lines, the longest line, the length of the longest line, and the line number of the…
 
 ---
 
-**But Can You Make Pong?**, [http://tinodidriksen.com/2003/05/06/but-can-you-make-pong/](http://tinodidriksen.com/2003/05/06/but-can-you-make-pong/)
+**But Can You Make Pong? (2003)**, [http://tinodidriksen.com/2003/05/06/but-can-you-make-pong/](http://tinodidriksen.com/2003/05/06/but-can-you-make-pong/)
 
 
 So you want to begin making games, maybe you already started on one, maybe you and a few friends decided to try being a studio. Think you got what it takes? Of course you do, or at least you can…
@@ -257,3 +257,11 @@ So you want to begin making games, maybe you already started on one, maybe you a
 
 **Favorite Editor:** jEdit, Visual Studio
 
+## Background
+## IRC: Freenode
+- +o in [\#\#C++](http://webchat.freenode.net/?channels=%23%23C%2b%2b)
+- Owner and operator of [\#\#C++-general](http://webchat.freenode.net/?channels=%23%23C%2b%2b-general)
+
+## IRC: QuakeNet
+- +o in [\#C++](http://webchat.quakenet.org/?channels=C%2b%2b) and [\#C](http://webchat.quakenet.org/?channels=C)
+- Owner and operator of [\#C\#](http://webchat.quakenet.org/?channels=C%23)
