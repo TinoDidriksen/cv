@@ -65,6 +65,7 @@ Integrated a multi-process pipe of Perl and C++ language and grammar analysis to
 
 **Computer Science**, Syddansk Universitet, *2011*
 
+python, java, opengl, calculus, computer-science
 
 [3D Tetris in Java+OpenGL (1st year project)](http://tetris.pjj.cc/) - the excuse for making it was to investigate the math behind 3D graphics.
 
@@ -72,8 +73,9 @@ Integrated a multi-process pipe of Perl and C++ language and grammar analysis to
 
 **Computer Science**, Syddansk Universitet, *2002 – 2005*
 
+c, java, linux-kernel, filesystems, computer-science, computer-architecture, calculus
 
-These were the bad old days where the Java coding exam was done on paper and the mandatory first year included biology, physics, and chemistry. While I don&#39;t dislike those (all science is good science), I really wanted to focus on CompSci and were simply not allowed to do so, and thus dropped out. It did however introduce me to the [VISL project](http://visl.sdu.dk/) and academia in general, where I&#39;ve worked with computational linguistics ever since.
+These were the bad old days where the Java coding exam was done on paper and the mandatory first year included biology, physics, and chemistry. While I don&#39;t dislike those (all science is good science), I really wanted to focus on CompSci and was simply not allowed to do so, and thus dropped out. It did however introduce me to the [VISL project](http://visl.sdu.dk/) and academia in general, where I&#39;ve worked with computational linguistics ever since.
 
 ---
 
@@ -83,7 +85,7 @@ These were the bad old days where the Java coding exam was done on paper and the
 **Stack Overflow**, [http://stackoverflow.com/users/145919](http://stackoverflow.com/users/145919), *July 2009 - Current*
 
 
-Written 30 answers.  Active in php.
+Written 37 answers.  Active in php.
 
 ---
 
@@ -188,7 +190,7 @@ Wrote it from scratch.
 
 ---
 
-**GitHub - cg3**, [https://github.com/TinoDidriksen/cg3](https://github.com/TinoDidriksen/cg3), *April 2014 - September 2015*
+**GitHub - cg3**, [https://github.com/TinoDidriksen/cg3](https://github.com/TinoDidriksen/cg3), *April 2014 - October 2015*
 
 c++, boost, icu, cmake, nlp
 
@@ -248,6 +250,13 @@ The task: Write a portable tool that takes a file name as first argument, and fr
 
 
 So you want to begin making games, maybe you already started on one, maybe you and a few friends decided to try being a studio. Think you got what it takes? Of course you do, or at least you can…
+
+---
+
+**Amongst the Stars (SciFi Flash Fiction, 2015)**, [http://365tomorrows.com/10/17/amongst-the-stars/](http://365tomorrows.com/10/17/amongst-the-stars/)
+
+
+The crying boy slunk down by the obelisk. &quot;Everyone says you listen at these stones&quot;, he whispered, &quot;so if you really do exist, please take me away from here. Read more...
 
 ---
 
