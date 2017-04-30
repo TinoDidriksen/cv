@@ -1,5 +1,5 @@
 
-#Tino Didriksen
+# Tino Didriksen
 - Odense, Denmark
 - +45 27504250
 - mail@tinodidriksen.com
@@ -19,7 +19,7 @@ These days, I primarily develop tools for use in various parts of computational 
 **Dislike:** c, java, autotools, makefile
 
 ---
-##Experience
+## Experience
 
 **Software Developer**, GrammarSoft ApS, *March 2007 – Current*
 
@@ -61,7 +61,7 @@ Integrated a multi-process pipe of Perl and C++ language and grammar analysis to
 
 ---
 
-##Education
+## Education
 
 **Computer Science**, Syddansk Universitet, *2011*
 
@@ -80,7 +80,7 @@ These were the bad old days where the Java coding exam was done on paper and the
 ---
 
 
-##Projects &amp; Interests
+## Projects &amp; Interests
 
 **Stack Overflow**, [http://stackoverflow.com/users/145919](http://stackoverflow.com/users/145919), *July 2009 - Current*
 
@@ -230,7 +230,7 @@ Initial involvement was to provide support for their use of [CG-3](https://githu
 
 ---
 
-##Writing
+## Writing
 
 **Keen Mind (SciFi Flash Story, 2014)**, [http://365tomorrows.com/07/12/keen-mind/](http://365tomorrows.com/07/12/keen-mind/)
 
