@@ -3,12 +3,12 @@
 - Odense, Denmark
 - +45 27504250
 - mail@tinodidriksen.com
-- http://tinodidriksen.com/
+- https://tinodidriksen.com/
 
 
 Remember how you could hold down the Reset combination on an Amiga 500 to free up slightly more RAM in order to play the largest maps in [The Settlers](http://www.mobygames.com/game/serf-city-life-is-feudal)? And how overpowered Paladins were in [Master of Magic](http://www.mobygames.com/game/master-of-magic)? Good times, good times...
 
-While I was hex-editing everything I could get my hands on trial&#39;n&#39;error style, including the raw block device itself, I wasn&#39;t terribly interested in [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) in those early days. That came along as my English vastly improved, because as every NLP person knows, English is a seductively easy language to write NLP algorithms for - shame they fall apart as soon as any morphologically complex language enters the picture.
+While I was hex-editing everything I could get my hands on trial'n'error style, including the raw block device itself, I wasn't terribly interested in [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) in those early days. That came along as my English vastly improved, because as every NLP person knows, English is a seductively easy language to write NLP algorithms for - shame they fall apart as soon as any morphologically complex language enters the picture.
 
 These days, I primarily develop tools for use in various parts of computational linguistics, from live language analysis, through corpus query, to rule-based machine translation.
 
@@ -41,7 +41,7 @@ Full Stack DevOp. Everything from physically putting servers in racks, through L
 
 c++, qt, php, ffmpeg, mysql, postgresql
 
-Wrote all the code for the program itself in C++ and Qt 5, including the copy-protection system. Mastered the ISOs/DVDs and made them auto-startable and usable cross-platform (Windows, Mac OS X, Linux), plus made MSI versions. Made the website using WordPress as framework, key verification via HTTP callbacks, and ordering system via PayPal&#39;s API. Manages all the tech parts, including tech support for when Windows and OS X updates break everything.
+Wrote all the code for the program itself in C++ and Qt 5, including the copy-protection system. Mastered the ISOs/DVDs and made them auto-startable and usable cross-platform (Windows, Mac OS X, Linux), plus made MSI versions. Made the website using WordPress as framework, key verification via HTTP callbacks, and ordering system via PayPal's API. Manages all the tech parts, including tech support for when Windows and OS X updates break everything.
 
 ---
 
@@ -75,19 +75,12 @@ python, java, opengl, calculus, computer-science
 
 c, java, linux-kernel, filesystems, computer-science, computer-architecture, calculus
 
-These were the bad old days where the Java coding exam was done on paper and the mandatory first year included biology, physics, and chemistry. While I don&#39;t dislike those (all science is good science), I really wanted to focus on CompSci and was simply not allowed to do so, and thus dropped out. It did however introduce me to the [VISL project](http://visl.sdu.dk/) and academia in general, where I&#39;ve worked with computational linguistics ever since.
+These were the bad old days where the Java coding exam was done on paper and the mandatory first year included biology, physics, and chemistry. While I don't dislike those (all science is good science), I really wanted to focus on CompSci and was simply not allowed to do so, and thus dropped out. It did however introduce me to the [VISL project](http://visl.sdu.dk/) and academia in general, where I've worked with computational linguistics ever since.
 
 ---
 
 
 ## Projects &amp; Interests
-
-**Stack Overflow**, [http://stackoverflow.com/users/145919](http://stackoverflow.com/users/145919), *July 2009 - Current*
-
-
-Written 37 answers.  Active in php.
-
----
 
 **GramTrans**, [http://gramtrans.com/](http://gramtrans.com/)
 
@@ -156,7 +149,7 @@ c++, perl, php, qt
 Advanced spelling and grammar checker
   
 Integrating a Perl and C++ backend with a MS Office proofing tool.
-Designed the project&#39;s website: http://ordret.com/
+Designed the project's website: http://ordret.com/
 
 ---
 
