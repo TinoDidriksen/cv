@@ -1,0 +1,38 @@
+body {
+	background-color: #eee;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main {
+	padding: 5px;
+}
+
+.fs-7 {
+	font-size: 0.8rem;
+}
+
+.profile-pic {
+	padding: 20px 0;
+}
+.profile-pic img {
+	width: 100px;
+	height: 100px;
+}
+
+.profile-entry {
+	display: table;
+}
+
+@media print {
+	.profile-entry {
+		display: flex;
+	}
+	.profile-entry span {
+		display: block;
+	}
+}
