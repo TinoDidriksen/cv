@@ -1,0 +1,3 @@
+* text eol=lf
+*.json5 linguist-detectable
+*.json linguist-generated

@@ -1,5 +1,8 @@
 {
 	'$schema': 'https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json',
+	meta: {
+		theme: 'elegant',
+	},
 	basics: {
 		name: 'Tino Didriksen',
 		label: 'Software Developer',
@@ -68,6 +71,7 @@
 				'[GramTrans](https://gramtrans.com/) (2007): Rule-based machine translation.',
 				'[Deepdict](https://deepdict.com/) (2009): Dictionary with lexicographic relations.',
 				'[WikiTrans](https://wikitrans.net/) (2010): Cross-language Wikipedia.',
+				'[WikiTrans XL](https://xl.wikitrans.net/) (2013): Application for crowd-sourcing bilingual dictionaries. Users are given possible translations and can verify, throw out, or amend them. Or add entirely new ones.',
 				'[Kommaforslag](https://kommaer.dk/) (2015): Danish comma checker.',
 				'[RetMig](https://retmig.dk/) (2016): Danish spelling and grammar checker.',
 				'[Commatizer](https://commatizer.com/) (2020): English comma checker.',
@@ -89,11 +93,22 @@
 			position: 'Software Developer',
 			startDate: '2008-12-17',
 			url: 'https://oqaasileriffik.gl/',
-			summary: 'TODO',
+			summary: 'Development of various language technology tools for Greenlandic.',
 			highlights: [
 				'Katersat (2009): Dictionary management interface customized for Greenlandic needs.',
-				'[Kukkuniiaat](https://kukkuniiaat.gl/) (2011): Greenlandic spell checker.',
+				'[Kukkuniiaat](https://kukkuniiaat.gl/) (2011): Spell checker and hyphenation engine for Greenlandic, integrated into Microsoft Office and LibreOffice, cross-platform Windows, Linux, and macOS.',
 				'[Nutserut](https://nutserut.gl/) (2022): Greenlandic-Danish rule-based machine translation.',
+			],
+		},
+		{
+			name: 'Apertium',
+			position: 'PMC Member & Software Developer',
+			startDate: '2009-03-21',
+			url: 'https://apertium.org/',
+			summary: 'Open-source rule-based machine translation platform. Initial involvement was to provide support for their use of [CG-3](https://github.com/GrammarSoft/cg3), but it has since grown to developing and running the nightly auto-packaging service, plus random maintenance of the core C++ tools.',
+			highlights: [
+				'[Packager](https://github.com/apertium/packaging) (May 2014): Nightly auto-packaging service, building the Apertium ecosystem for ~30 different configurations.',
+				'[PMC Member](https://wiki.apertium.org/wiki/Project_Management_Committee) (Nov 2014): Elected to Apertium\'s Project Management Committee',
 			],
 		},
 		{
@@ -125,17 +140,61 @@
 			institution: 'University of Southern Denmark',
 			url: 'https://www.sdu.dk/',
 			area: 'Computer Science',
-			startData: '2011-09-01',
-			endData: '2011-12-31',
+			studyType: '(BSc)',
+			startDate: '2011-09-01',
+			endDate: '2011-12-31',
 			summary: '[3D Tetris in Java+OpenGL (1st year project)](http://tetris.pjj.cc/) - the excuse for making it was to investigate the math behind 3D graphics.',
 		},
 		{
 			institution: 'University of Southern Denmark',
 			url: 'https://www.sdu.dk/',
 			area: 'Computer Science',
-			startData: '2002-09-01',
-			endData: '2005-07-31',
+			studyType: '(BSc)',
+			startDate: '2002-09-01',
+			endDate: '2005-07-31',
 			summary: 'These were the bad old days where the Java coding exam was done on paper and the mandatory first year included biology, physics, and chemistry. While I don\'t dislike those (all science is good science), I really wanted to focus on CompSci and was simply not allowed to do so, and thus dropped out. It did however introduce me to the [VISL project](https://visl.sdu.dk/) and academia in general, where I\'ve worked with computational linguistics ever since.',
+		},
+	],
+	projects: [
+		{
+			name: 'CG-3',
+			description: 'Tools for the 3rd edition of the Constraint Grammar formalism. Created and actively maintained based on feature requests from an international community of computational linguists.',
+			url: 'https://github.com/GrammarSoft/cg3',
+			startDate: '2006-05-19',
+		},
+		{
+			name: 'CG-3 IDE',
+			description: 'IDE for developing CG-3 grammars, with syntax highlighting and live feedback designed to keep the edit-compile-test loop as fast as possible.',
+			url: 'https://github.com/GrammarSoft/cg3ide',
+			startDate: '2013-06-17',
+		},
+		{
+			name: 'Project JJ Chats',
+			description: 'Old school chat system, BeSeen-style. Made it from scratch, starting in mid-2000.',
+			url: 'https://pjj.cc/',
+			startDate: '2000-06-01',
+		},
+	],
+	volunteer: [
+		{
+			organization: 'C++ on IRC',
+			position: 'Operator',
+			startDate: '2011-06-29',
+			highlights: [
+				'Freenode (2011-06-29): Created ##C++-general with the blessing of the ##C++ operators. This quickly grew to be the 2nd largest C++ channel on Freenode, and indeed on any network at the time.',
+				'[QuakeNet](https://quakenet.org/) (2013-11-17): Granted operator status for [#C++](https://webchat.quakenet.org/?channels=%23C%2b%2b).',
+				'Freenode (2015-04-15): Granted operator status for the main ##C++ – the largest C++ channel on any IRC network at the time.',
+				'[Libera.chat](https://libera.chat/) (2021-05-19): Following Freenode\'s hostile takeover, I created [#C++](https://web.libera.chat/#C%2b%2b) and [#C++-general](https://web.libera.chat/#C%2b%2b-general) on Libera.chat, which continue to be the largest C++ channels on any network.',
+			],
+		},
+		{
+			organization: 'Debian',
+			position: 'Maintainer',
+			startDate: '2014-09-22',
+			highlights: [
+				'Maintaining all the packages of the [Apertium ecosystem](https://qa.debian.org/developer.php?login=tino%40didriksen.cc).',
+				'2022-06-24: Granted [Debian Maintainer](https://nm.debian.org/process/1064/) status.',
+			],
 		},
 	],
 	publications: [
