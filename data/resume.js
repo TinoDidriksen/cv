@@ -5,8 +5,10 @@ function escHTML(str) {
 }
 
 function MD(str) {
+	str = str.replace(/&quot;/g, '"');
 	str = escHTML(str);
 	str = str.replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2">$1</a>');
+	str = str.replace(/[*](.+?)[*]/g, '<em>$1</em>');
 	str = str.replace(/\n/g, '<br>');
 	return str;
 }
@@ -25,17 +27,17 @@ function render(cv) {
 	let loc = escHTML(cv.basics.location.address+', '+cv.basics.location.city+', '+cv.basics.location.countryCode);
 	let langs = [];
 	for (let i=0 ; i<cv.languages.length ; ++i) {
-		langs.push(MD(cv.languages[i].language));
+		langs.push('<span class="text-nowrap">'+MD(cv.languages[i].language) + ' <code title="CEFR Level">'+cv.languages[i].cefr+'</code></span>');
 	}
 
 	let ds = [
-		['geo-alt', '<a class="text-reset" href="https://maps.google.com/maps?q='+loc+'">'+MD(cv.basics.location.address)+'<br>'+MD(cv.basics.location.postalCode)+' '+MD(cv.basics.location.city)+'<br>'+MD(cv.basics.location.countryCode)+'</a>'],
-		['telephone', '<a class="text-reset" href="tel:'+escHTML(cv.basics.phone)+'">'+escHTML(cv.basics.phone)+'</a>'],
-		['envelope', '<a class="text-reset" href="mailto:'+escHTML(cv.basics.email)+'">'+escHTML(cv.basics.email)+'</a>'],
+		['geo-alt', '<div class="text-start"><a class="text-reset text-nowrap" href="https://maps.google.com/maps?q='+loc+'">'+MD(cv.basics.location.address)+'<br>'+MD(cv.basics.location.postalCode)+' '+MD(cv.basics.location.city)+'<br>'+MD(cv.basics.location.countryCode)+'</a></div>'],
+		['telephone', '<a class="text-reset text-nowrap" href="tel:'+escHTML(cv.basics.phone)+'">'+escHTML(cv.basics.phone)+'</a>'],
+		['envelope', '<a class="text-reset text-nowrap" href="mailto:'+escHTML(cv.basics.email)+'">'+escHTML(cv.basics.email)+'</a>'],
 		['translate', langs.join(', ')],
 		];
 	for (let i=0 ; i<ds.length ; ++i) {
-		html += '<div class="profile-entry flex-column m-2"><span class="d-table-cell text-center px-2"><i class="bi bi-'+ds[i][0]+'"></i></span><span class="d-table-cell px-2 fs-7">'+ds[i][1]+'</span></div>';
+		html += '<div class="profile-entry flex-column flex-1 m-2"><span class="d-table-cell text-center px-2"><i class="bi bi-'+ds[i][0]+'"></i></span><span class="d-table-cell print-center px-2 fs-7">'+ds[i][1]+'</span></div>';
 	}
 
 	html += '</div>';
@@ -57,7 +59,7 @@ function render(cv) {
 	html = '';
 	for (let i=0 ; i<cv.work.length ; ++i) {
 		html += '<hr>';
-		html += '<div class="experience">';
+		html += '<div class="experience print-item">';
 		html += '<div><strong>'+MD(cv.work[i].position)+'</strong>, <a href="'+escHTML(cv.work[i].url)+'" target="_blank">'+MD(cv.work[i].name)+'</a></div>';
 		html += '<div class="m-2">'+MD(cv.work[i].summary)+'</div>';
 		if (typeof cv.work[i].highlights !== 'undefined') {
@@ -74,7 +76,7 @@ function render(cv) {
 	html = '';
 	for (let i=0 ; i<cv.projects.length ; ++i) {
 		html += '<hr>';
-		html += '<div class="project">';
+		html += '<div class="project print-item">';
 		html += '<div><strong><a href="'+escHTML(cv.projects[i].url)+'" target="_blank">'+MD(cv.projects[i].name)+'</a></strong></div>';
 		html += '<div class="m-2">'+MD(cv.projects[i].description)+'</div>';
 		html += '</div>';
@@ -86,6 +88,34 @@ function render(cv) {
 		html += '<span class="badge text-bg-primary">'+escHTML(cv.skills[0].keywords[i])+'</span> ';
 	}
 	$('#skills-text').html(html);
+
+	html = '';
+	for (let i=0 ; i<cv.volunteer.length ; ++i) {
+		html += '<hr>';
+		html += '<div class="experience print-item">';
+		html += '<div><strong>'+MD(cv.volunteer[i].position)+'</strong>, '+MD(cv.volunteer[i].organization)+'</div>';
+		//html += '<div class="m-2">'+MD(cv.volunteer[i].summary)+'</div>';
+		if (typeof cv.volunteer[i].highlights !== 'undefined') {
+			html += '<ul class="mt-2">';
+			for (let j=0 ; j<cv.volunteer[i].highlights.length ; ++j) {
+				html += '<li>'+MD(cv.volunteer[i].highlights[j])+'</li>';
+			}
+			html += '</ul>';
+		}
+		html += '</div>';
+	}
+	$('#volunteer-text').html(html);
+
+	html = '';
+	for (let i=0 ; i<cv.publications.length ; ++i) {
+		html += '<hr>';
+		html += '<div class="experience print-item">';
+		html += '<div><strong>'+MD(cv.publications[i].name)+'</strong>, <a href="'+escHTML(cv.publications[i].url)+'" target="_blank">'+MD(cv.publications[i].publisher)+'</a></div>';
+		html += '<div class="ms-2 text-secondary fs-7">'+MD(cv.publications[i].releaseDate)+'</div>';
+		html += '<div class="m-2">'+MD(cv.publications[i].summary)+'</div>';
+		html += '</div>';
+	}
+	$('#publications-text').html(html);
 }
 
 $(window).on('load', function() {

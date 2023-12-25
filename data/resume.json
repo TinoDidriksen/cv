@@ -5,14 +5,14 @@
 	},
 	"basics": {
 		"name": "Tino Didriksen",
-		"label": "Software Developer",
+		"label": "Software Developer and Computational Linguist",
 		"email": "mail@tinodidriksen.com",
 		"url": "https://tinodidriksen.com/",
 		"image": "https://tinodidriksen.com/uploads/wolf-circular-500.png",
 		"location": {
 			"address": "Jervelundhaven 6, 1, th.",
 			"postalCode": "5220",
-			"city": "Odense",
+			"city": "Odense SØ",
 			"countryCode": "Denmark"
 		},
 		"phone": "+45 27504250",
@@ -21,6 +21,11 @@
 				"network": "GitHub",
 				"username": "TinoDidriksen",
 				"url": "https://github.com/TinoDidriksen"
+			},
+			{
+				"network": "Mastodon",
+				"username": "@Tino@qoto.org",
+				"url": "https://qoto.org/@Tino"
 			},
 			{
 				"network": "Twitter",
@@ -38,20 +43,28 @@
 				"url": "https://www.linkedin.com/in/tinodidriksen/"
 			}
 		],
-		"summary": "Remember how you could hold down the Reset combination on an Amiga 500 to free up slightly more RAM in order to play the largest maps in [The Settlers](http://www.mobygames.com/game/serf-city-life-is-feudal)? And how overpowered Paladins were in [Master of Magic](http://www.mobygames.com/game/master-of-magic)? Good times, good times...\n\nWhile I was hex-editing everything I could get my hands on trial'n'error style, including the raw block device itself, I wasn't terribly interested in [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) in those early days. That came along as my English vastly improved, because as every NLP person knows, English is a seductively easy language to write NLP algorithms for - shame they fall apart as soon as any morphologically complex language enters the picture.\n\nThese days, I primarily develop tools for use in various parts of computational linguistics, from live language analysis, through corpus query, to rule-based machine translation."
+		"summary": "Remember how you could hold down the Reset combination on an Amiga 500 to free up slightly more RAM in order to play the largest maps in [The Settlers](http://www.mobygames.com/game/serf-city-life-is-feudal)? And how overpowered Paladins were in [Master of Magic](http://www.mobygames.com/game/master-of-magic)? Good times, good times...\n\nWhile I was hex-editing everything I could get my hands on trial'n'error style, including the raw block device itself, I wasn't terribly interested in [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) in those early days. That came along as my English vastly improved, because as every NLP person knows, English is a seductively easy language to write NLP algorithms for - shame they fall apart as soon as any morphologically complex language enters the picture.\n\nThese days, I primarily develop tools for use in various parts of computational linguistics, from live language analysis, through corpus query, to rule-based machine translation and even artificial intelligence."
 	},
 	"languages": [
 		{
 			"language": "English",
-			"fluency": "Native"
+			"fluency": "Native",
+			"cefr": "C2"
 		},
 		{
 			"language": "Danish",
-			"fluency": "Native"
+			"fluency": "Native",
+			"cefr": "C2"
 		},
 		{
 			"language": "German",
-			"fluency": "Beginner"
+			"fluency": "Beginner",
+			"cefr": "A2"
+		},
+		{
+			"language": "Japanese",
+			"fluency": "Beginner",
+			"cefr": "A1"
 		}
 	],
 	"skills": [
@@ -60,6 +73,7 @@
 				"C++",
 				"PHP",
 				"Perl",
+				"Python",
 				"CMake",
 				"Qt",
 				"Boost",
@@ -69,6 +83,8 @@
 				"Natural Language Processing",
 				"Machine Translation",
 				"Unicode",
+				"Artificial Intelligence",
+				"Machine Learning",
 				"MySQL",
 				"PostgreSQL",
 				"SQLite",
@@ -134,11 +150,12 @@
 			]
 		},
 		{
-			"name": "Visual Interactive Syntax Learning",
+			"name": "University of Southern Denmark",
 			"position": "Software Developer",
 			"startDate": "2004-04-01",
+			"endDate": "2023-09-01",
 			"url": "https://visl.sdu.dk/",
-			"summary": "Full Stack DevOp. Everything from physically putting servers in racks, through LAMP/LAPP configuration and management, to software development and deployment. Website is in PHP and Perl, communicating with computational linguistics tools in C, C++, Perl, and PHP. Maintenance of Java applets, corpus query tools, live language analysis software, and machine translation tools. I basically have a finger in on every part of VISL."
+			"summary": "Full Stack DevOp for the Visual Interactive Syntax Learning project. Everything from physically putting servers in racks, through LAMP/LAPP configuration and management, to software development and deployment. Website is in PHP and Perl, communicating with computational linguistics tools in C, C++, Perl, and PHP. Maintenance of Java applets, corpus query tools, live language analysis software, and machine translation tools. I basically have a finger in on every part of VISL."
 		},
 		{
 			"name": "Ordret Consortium",
@@ -211,11 +228,12 @@
 		},
 		{
 			"organization": "Debian",
-			"position": "Maintainer",
+			"position": "Developer",
 			"startDate": "2014-09-22",
 			"highlights": [
 				"Maintaining all the packages of the [Apertium ecosystem](https://qa.debian.org/developer.php?login=tino%40didriksen.cc).",
-				"2022-06-24: Granted [Debian Maintainer](https://nm.debian.org/process/1064/) status."
+				"2022-06-24: Granted [Debian Maintainer](https://nm.debian.org/process/1064/) status.",
+				"2022-10-14: Granted [Debian Developer](https://nm.debian.org/process/1112/) status."
 			]
 		}
 	],

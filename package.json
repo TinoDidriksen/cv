@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"build": "cat resume.json5 | npx json5 -s t > data/resume.json"
+	},
+	"devDependencies": {
+		"json5": ">=1"
+	}
+}
